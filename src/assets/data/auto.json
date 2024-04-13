@@ -1,0 +1,41 @@
+{
+  "auto": [
+    {
+      "id": "1",
+      "nombre": "Stefanny",
+      "marca": "Audi",
+      "anio": "2020",
+      "dueniosAnt": "Carlos,Santiago"
+    },
+    {
+      "id": "2",
+      "nombre": "Dayanna",
+      "marca": "Toyota",
+      "anio": "2022",
+      "dueniosAnt": "Santiago,Kevin"
+    },
+    {
+      "id": "3",
+      "nombre": "Dayanna",
+      "marca": "Audi",
+      "anio": "2010",
+      "dueniosAnt": "Camila,Dayanna"
+    },
+    {
+      "id": "4",
+      "nombre": "Fanny",
+      "marca": "Chevrolet",
+      "modelo": "Hilux",
+      "anio": "2024",
+      "dueniosAnt": "Karin"
+    },
+    {
+      "id": "5",
+      "nombre": "Kevin",
+      "marca": "Chevrolet",
+      "modelo": "Hilux",
+      "anio": "2023",
+      "dueniosAnt": "Fanny,Franco"
+    }
+  ]
+}

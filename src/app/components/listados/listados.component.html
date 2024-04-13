@@ -1,0 +1,20 @@
+<table class="table table-light table-striped-columns">
+    <tr>
+        <th>id</th>
+        <th>Nombre</th>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Año</th>
+        <th>Dueños anteriores</th>
+    </tr>
+    <tr *ngFor="let autoEach of auto">
+        <td>{{autoEach.id}}</td>
+        <td>{{autoEach.nombre}}</td>
+        <td>{{autoEach.marca}}</td>
+        <td>{{autoEach.modelo}}</td>
+        <td>{{autoEach.anio}}</td>
+        <td>{{autoEach.dueniosAnt}}</td>
+        <td><button class="btn btn-success" [routerLink]="['/detalle',autoEach.id]">Detalles</button>
+        <button class="btn btn-primary" (click)="borrar(autoEach.id)">Eliminar</button></td>
+    </tr>
+</table>

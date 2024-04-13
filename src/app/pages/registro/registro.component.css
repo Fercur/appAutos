@@ -1,0 +1,13 @@
+input,select,.txtArea{
+    margin: 10px;
+}
+h2{
+    justify-content: center;
+    text-align: center;
+}
+.btnContenedor{
+    text-align: end;
+}
+.container{
+    margin: 20px 80px;
+}
